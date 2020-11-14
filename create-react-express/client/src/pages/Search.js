@@ -20,7 +20,7 @@ class Home extends React.Component {
             authors: bookData.volumeInfo.authors,
             description: bookData.volumeInfo.description,
             image: bookData.volumeInfo.imageLinks.thumbnail,
-            link: bookData.volumeInfo.previewLink
+            link: bookData.volumeInfo.infoLink
         }
     }
 

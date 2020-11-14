@@ -7,12 +7,13 @@ class Saved extends Component {
         saved: [],
     }
 
-    componentSidMount() {
-        API.getSavedBooks()
+    componentDidMount() {
+        API.savedBooks()
         .then(books => this.setState({ saved: books}))
         .catch(err => console.log(err))
     }
 
+    // pass down books object that contains all saved books
     render(){
     return (
         <div>
