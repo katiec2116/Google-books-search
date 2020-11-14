@@ -2,21 +2,24 @@ import React from "react"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav";
 import Header from "./components/Header"
-import Home from "./pages/Home"
+import Search from "./pages/Search"
 import NoMatch from "./pages/NoMatch"
-import 'bulma/css/bulma.css'
+import Saved from "./pages/Saved"
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
 
     <Router>
+      <div>
       <Nav />
       <Header />
       <Switch>
-        <Route exact path="/" component={Home} />
-        {/* <Route exact path="/saved" component={Saved} /> */}
+        <Route exact path="/" component={Search} />
+        <Route exact path="/saved" component={Saved} />
         <Route component={NoMatch} />
       </Switch>
+      </div>
     </Router>
   );
 }
