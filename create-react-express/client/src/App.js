@@ -5,7 +5,8 @@ import Header from "./components/Header"
 import Search from "./pages/Search"
 import NoMatch from "./pages/NoMatch"
 import Saved from "./pages/Saved"
-import 'bootstrap/dist/css/bootstrap.min.css'
+import Footer from "./components/Footer"
+import 'bulma/css/bulma.css'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/saved" component={Saved} />
         <Route component={NoMatch} />
       </Switch>
+      <Footer/>
       </div>
     </Router>
   );

@@ -52,7 +52,7 @@ class Home extends React.Component {
                     handleFormSubmit={this.handleFormSubmit}
                 />
                 <div className="container">
-                    <h2>Results</h2>
+                    <h2 className="title mt-6 has-text-centered">Results</h2>
                     <Results books={this.state.books} />
                 </div>
             </div>

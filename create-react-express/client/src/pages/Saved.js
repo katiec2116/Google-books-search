@@ -17,6 +17,7 @@ class Saved extends Component {
     render(){
     return (
         <div>
+            <h1 className="title has-text-centered">My Saved Books</h1>
            <Results books={this.state.saved} />
         </div>
     )
