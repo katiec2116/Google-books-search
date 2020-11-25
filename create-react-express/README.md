@@ -1,29 +1,60 @@
-# Create React Express App
+# Google-books-search
+A react application to search for books and save to your personal library
 
-## About This Boilerplate
+ ![GitHub repo size](https://img.shields.io/github/repo-size/katiec2116/Google-books-search) ![GitHub license](https://img.shields.io/badge/license-MIT-green.svg) [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/chetanraj/awesome-github-badges)
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
 
-## Starting the app locally
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+## Description 
+An application built with reach where you can search books using the google api and then save those books to your personal library.
 
-```
-npm install
-```
 
-This should install node modules within the server and the client folder.
 
-After both installations complete, run the following command in your terminal:
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
 
-```
-npm start
-```
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
 
-## Deployment (Heroku)
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+## Installation
+
+To install use the following command
+
+> npm i
+
+
+
+## Usage
+
+To run use the following command
+
+> npm start
+
+or use the deployed version
+
+<img src=recording.gif width=500px>
+
+
+
+## License
+
+MIT
+
+
+
+
+## Tests
+
+There are currently no tests
+
+
+
+## Questions
+
+Have any questions? Reach out to me at <a href= "mailto:katiecampbell21@outlook.com">katiecampbell21@outlook.com</a>
+
